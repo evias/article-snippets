@@ -1,0 +1,23 @@
+{
+  "name": "nem-sandbox",
+  "version": "1.0.0",
+  "description": "Snippets library for the book with title: Building Apps with the NEM Blockchain",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nem",
+    "blockchain",
+    "distributed",
+    "ledger",
+    "cryptocurrencies",
+    "fintech"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "nem-sdk": "^1.6.7"
+  }
+}
