@@ -18,6 +18,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "nem-sdk": "^1.6.7"
+    "nem-sdk": "^1.6.7",
+    "sleep": "^5.2.3"
   }
 }
