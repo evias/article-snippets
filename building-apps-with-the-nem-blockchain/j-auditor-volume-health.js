@@ -97,6 +97,8 @@ const nem_node = nem.model.objects.create("endpoint")(NEM_HOST, NEM_PORT);
 
         rows = result.data.filter((row) => {
             let hash = row.meta.hash.data;
+
+            // Read transaction XEM amount
             let amt  = (row.transaction.type === 4100 ?  row.transaction.otherTrans.amount : row.transaction.amount) || 0;
             let isNew = !hashes.hasOwnProperty(hash);
 
